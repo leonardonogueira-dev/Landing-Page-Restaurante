@@ -2,9 +2,7 @@
 
 Uma landing page responsiva com tema de restaurante, construída com HTML, CSS e JavaScript. Este projeto apresenta um design limpo com animações suaves.
 
-## 🌐 Visualize o projeto:
-
-**[Ver Projeto Online])**
+**Ver Projeto Online:** https://glittery-parfait-ac7df4.netlify.app/
 
 ## 🛠️ Tecnologias Utilizadas
 
