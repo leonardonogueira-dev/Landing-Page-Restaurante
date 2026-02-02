@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="src/style/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo"> food</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#menu">Cardápio</a></li>
+                <li class="nav-item"><a href="#testemunhos">Avaliações</a></li>
+            </ul>
+
+            <button class="btn-default">Peça aqui</button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item"><a href="#home">Início</a></li>
+                <li class="nav-item"><a href="#menu">Cardápio</a></li>
+                <li class="nav-item"><a href="#testemunhos">Avaliações</a></li>
+            </ul>
+
+            <button class="btn-default">Peça aqui</button>
+        </div>
+    </header>
+
+    <div class="shape"></div>
+
+    <main id="content">
+
+        <!-- HOME -->
+        <section id="home">
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Uma experiência gastronômica que transforma cada refeição em um momento especial
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver Cardápio
+                    </a>
+
+                    <a href="tel:+5511978554210" id="phone_button">
+                        <BUtton class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </BUtton>
+                        (11) 97855-4210
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+
+
+            <div id="banner">
+                <img src="src/imagens/hero.png" alt="">
+            </div>
+        </section>
+
+        <!-- MENU -->
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+
+                <!-- PRATO 1 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish (1).png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">Poke Especial</h3>
+
+                    <span class="dish-description">
+                        Legumes frescos proteínas grelhadas e temperos orientais em uma combinação leve e saborosa.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$60,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRATO 2 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish2 (1).png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">Panini Grelhado da Casa</h3>
+
+                    <span class="dish-description">
+                        Pão crocante, recheado especial e queijo derretido no ponto certo.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$35,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRATO 3 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish3 (1).png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">Salada Fresh Mediterrâne</h3>
+
+                    <span class="dish-description">
+                        Folhas verdes e legumes frescos com um toque leve e refrescante.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$30,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PRATO 4 -->
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/imagens/dish4 (1).png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">Macarrão Artesanal Especial</h3>
+
+                    <span class="dish-description">
+                        Massa no ponto ideal, salteada com legumes e temperos especiais.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>42,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/imagens/chef (1).png" id="testimonials_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/imagens/avatar(2).png" class="feedback-avatar" alt="">
+                        <di class="feedback-content">
+                            <p>
+                                Laura
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                “Simplesmente amei! O sabor é incrível e dá pra sentir o cuidado em cada detalhe. Virou meu lugar favorito.”
+                            </p>
+                    </div>
+                </div>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/imagens/avatar(3).png" class="feedback-avatar" alt="">
+                        <di class="feedback-content">
+                            <p>
+                                Cíntia
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                “Experiência incrível! Sabor marcante e preparo impecável. Com certeza voltarei a pedir.”
+                            </p>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mmais avaliações
+                </button>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/imagens/wave (1).svg" alt="">
+
+        <div id="footer_itens">
+            <span id="copyright">
+                &copy 2026 Leonardo Nogueira
+            </span>
+
+             <div class="social-media-buttons">
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>
